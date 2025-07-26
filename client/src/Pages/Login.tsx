@@ -1,6 +1,6 @@
 const Login = () => {
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:5000/api/v1/auth/google";
+    window.location.href = "http://localhost:7000/api/v1/auth/google";
   };
 
   const handleGithubLogin = () => {
