@@ -4,7 +4,7 @@ const Login = () => {
   };
 
   const handleGithubLogin = () => {
-    window.location.href = "http://localhost:5000/api/v1/auth/github";
+    window.location.href = "http://localhost:7000/api/v1/auth/github";
   };
 
   return (

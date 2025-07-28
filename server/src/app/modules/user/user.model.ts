@@ -5,8 +5,13 @@ const userSchema = new Schema<IUser>(
   {
     googleId: {
       type: String,
-      sparse: true, // Allows multiple null values
+      sparse: true,
     },
+    githubId: {
+      type: String,
+      sparse: true,
+    },
+
     email: {
       type: String,
       required: true,
