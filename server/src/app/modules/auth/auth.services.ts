@@ -44,6 +44,7 @@ export const handleGoogleAuth = async (code: string): Promise<string> => {
       email: userInfo.email,
       name: userInfo.name,
       googleId: userInfo.sub,
+      provider: 'gogogle',
     });
   }
 
@@ -112,6 +113,7 @@ export const handleGitHubAuth = async (code: string): Promise<string> => {
       email,
       githubId: userInfo.id,
       avatar: userInfo.avatar_url,
+      provider: 'github',
     });
   }
 
